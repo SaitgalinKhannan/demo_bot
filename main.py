@@ -15,7 +15,7 @@ async def cmd_start(message: types.Message):
             [
                 types.InlineKeyboardButton(
                     text="Demo chat",
-                    web_app=types.WebAppInfo(url='https://moneylex.online:8083/'),
+                    web_app=types.WebAppInfo(url='https://localhost:5173/'),
                 )
             ]
         ]
